@@ -1,2 +1,2 @@
-# hacker-rank
-Hacker Rank solutions :green_book:
+# Hacker Rank
+## Notes, tips and solutions :green_book:
