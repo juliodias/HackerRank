@@ -82,7 +82,7 @@ public class Solution {
         saveEdges(scanner);
         scanner.close();
 
-        lala();
+        createTreeLeaf();
         TreeNode root = createRoot();
         return root;
     }
@@ -129,7 +129,7 @@ public class Solution {
         return root;
     }
 
-    private static TreeLeaf lala() {
+    private static TreeLeaf createTreeLeaf() {
         if (nodesQuantity == 1) {
             return new TreeLeaf(values[0], colors[0], 0);
         }
